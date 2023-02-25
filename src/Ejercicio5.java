@@ -10,9 +10,7 @@ public class Ejercicio5 {
 
         final var posicion = calcularPosicion(velocidad, aceleracion, tiempo);
         imprimirMensaje(tiempo, velocidad, aceleracion, posicion);
-
         scanner.close();
-
     }
 
     static double calcularPosicion(double velocidadInicial, double aceleracion, int tiempo) {

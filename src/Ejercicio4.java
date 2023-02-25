@@ -12,7 +12,6 @@ public class Ejercicio4 {
         imprimirMensaje(numeroCabezas, numeroPatas, numVacas, numGallinas);
 
         scanner.close();
-
     }
 
     static int calcularNumCabezas(int numeroVacas, int numeroGallinas) {
